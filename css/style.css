@@ -1,0 +1,71 @@
+body {
+  background: radial-gradient(70.28% 70.28% at 52.11% 36.3%, #0877BE 0%, #0B40A2 7.81%, #090E5F 55.58%, #0A0D4F 67.44%, #04043C 81.25%), #01020B;
+  background-repeat: no-repeat;
+  background-size: center;
+  height: 100vh; }
+
+.stylish-select-container {
+  width: 100%; }
+  .modal .stylish-select-container {
+    margin-bottom: 20px; }
+  .stylish-select-container > .stylish-select-selected {
+    background: rgba(6, 38, 115, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: inherit;
+    padding: 12px 30px 12px 24px;
+    background-image: url(../img/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+    background-size: 16px 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    box-shadow: none !important; }
+    @media (max-width: 1439px) {
+      .stylish-select-container > .stylish-select-selected {
+        padding: 12px 30px 12px 12px;
+        font-size: 14px;
+        background-size: 12px 10px;
+        background-position: right 10px center; } }
+    @media (max-width: 1199.98px) {
+      .stylish-select-container > .stylish-select-selected {
+        font-size: 18px; } }
+    @media (max-width: 575.98px) {
+      .stylish-select-container > .stylish-select-selected {
+        font-size: 16px; } }
+  .stylish-select-container[data-select-state="open"] > .stylish-select-selected {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0; }
+  .stylish-select-container > .stylish-select-list {
+    color: #fff;
+    max-height: none;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 0 0 5px 5px;
+    background: rgba(6, 38, 115, 0.9);
+    max-height: 260px;
+    overflow-y: scroll; }
+    .stylish-select-container > .stylish-select-list::-webkit-scrollbar {
+      background-color: transparent;
+      width: 2px; }
+    .stylish-select-container > .stylish-select-list::-webkit-scrollbar-thumb {
+      border-radius: 12px;
+      background-color: #fff;
+      max-height: 20px; }
+    .stylish-select-container > .stylish-select-list > li {
+      padding: 8.5px 20px;
+      line-height: inherit;
+      border: 1px solid transparent;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      background-color: transparent !important;
+      transition: 0.3s; }
+      .stylish-select-container > .stylish-select-list > li:last-child {
+        border-radius: 0 0 4px 4px;
+        border-bottom: none; }
+      .stylish-select-container > .stylish-select-list > li:hover {
+        color: #fff;
+        border-color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
